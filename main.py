@@ -4,7 +4,7 @@ import json
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS, cross_origin
 
-DATABASE_URL = 'postgres://pavzzdvcpkbgmv:489ca25396e5ff9fba477b857b33c9891e1db684c669a720b38aebc93892b300@ec2-52-86-115-245.compute-1.amazonaws.com:5432/d981n92g5anqun'
+DATABASE_URL = ''
 
 
 def sign_in(email, password):
